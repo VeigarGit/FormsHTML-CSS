@@ -1,0 +1,56 @@
+body {
+	margin: 20;
+	padding: 0;
+	background: url(books.jpg);
+	background-size: center;
+	font-family: sans-serif;
+
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.textbox{
+	width: 820px;
+	height: 640px;
+	background: #fff;
+	color: #000;
+	top: 20%;
+	left: 30%;
+	position: absolute;
+	trasform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+
+}
+
+.textbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.textbox input{
+	height: 50%;
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.textbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 18px;
+}
+
+.textbox input[type="submit"]:hover{
+	cursor: pointer;
+	background:#ffc107;
+	color: #000;
+
+}
